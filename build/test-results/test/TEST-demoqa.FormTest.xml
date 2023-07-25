@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="demoqa.FormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-25T08:27:08" hostname="DESKTOP-L68VFSM" time="8.638">
+<testsuite name="demoqa.FormTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-25T08:51:45" hostname="DESKTOP-L68VFSM" time="7.057">
   <properties/>
-  <testcase name="fillFormTest()" classname="demoqa.FormTest" time="8.638"/>
+  <testcase name="fillFormTest()" classname="demoqa.FormTest" time="7.057"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
@@ -9,9 +9,9 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J: Ignoring binding found at [jar:file:/C:/Users/Stas/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.32/321ffafb5123a91a71737dbff38ebe273e771e5b/slf4j-simple-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-июл. 25, 2023 2:27:09 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+июл. 25, 2023 2:51:45 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
 INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-июл. 25, 2023 2:27:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июл. 25, 2023 2:51:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 115, so returning the closest version found: 114
 ]]></system-err>
 </testsuite>
