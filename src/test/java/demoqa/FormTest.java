@@ -4,8 +4,6 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -39,11 +37,11 @@ public class FormTest {
             $("#subjectsInput").setValue("Arts").pressEnter();
             $("#hobbiesWrapper").$(byText("Music")).click();
             $("#currentAddress").setValue("Las Vegas");
-            $("#uploadPicture").uploadFile(new File("src/test/resources/britney.jpg"));
-            $("#stateCity-wrapper").$(byText("Select State")).click();
-            $("#react-select-3-option-0").click();
-            $("#stateCity-wrapper").$(byText("Select City")).click();
-            $("#react-select-4-option-0").click();
+            $("#uploadPicture").uploadFromClasspath("britney.jpg");
+            $("#state").click();
+            $("#stateCity-wrapper").$(byText("NCR")).click();
+            $("#city").click();
+            $("#stateCity-wrapper").$(byText("Delhi")).click();
             $("#submit").click();
 
             $("tbody tr:nth-child(1) td:nth-child(2)").shouldHave(text("Britney Spears"));
